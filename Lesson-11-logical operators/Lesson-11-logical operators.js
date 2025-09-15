@@ -144,7 +144,7 @@ alert( Boolean(null) ); //false
 if (age >= 14 && age <= 90) {
     alert(`age fits the requirement!`);
 }
-*/
+
 
 if (!(age >= 14 && age <= 90)) {
     alert(`age doesn't fit the requirement!`);
@@ -153,7 +153,7 @@ if (!(age >= 14 && age <= 90)) {
 if (age < 14 || age > 90){
     alert(`age doesn't fit the requirement`)
 }
-
+*/
 let userName = prompt (`Who's there?`, ``);
 if (userName === `Admin`) {
     let pass = prompt(`Password?`, ``);
